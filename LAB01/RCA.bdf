@@ -23,7 +23,7 @@ applicable agreement for further details.
 	(input)
 	(rect 24 96 192 112)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "A[3..0]" (rect 5 0 39 12)(font "Arial" ))
+	(text "A[3..0]" (rect 5 0 38 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -39,7 +39,7 @@ applicable agreement for further details.
 	(input)
 	(rect 24 136 192 152)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "B[3..0]" (rect 5 0 39 12)(font "Arial" ))
+	(text "B[3..0]" (rect 5 0 38 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -71,7 +71,7 @@ applicable agreement for further details.
 	(output)
 	(rect 624 128 800 144)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "C" (rect 90 0 98 12)(font "Arial" ))
+	(text "Cout" (rect 90 0 113 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -273,11 +273,6 @@ applicable agreement for further details.
 	(pt 616 248)
 )
 (connector
-	(text "C" (rect 720 216 728 228)(font "Arial" ))
-	(pt 712 232)
-	(pt 752 232)
-)
-(connector
 	(text "A[0]" (rect 88 200 108 212)(font "Arial" ))
 	(pt 112 216)
 	(pt 80 216)
@@ -336,4 +331,9 @@ applicable agreement for further details.
 	(text "S[3]" (rect 720 200 740 212)(font "Arial" ))
 	(pt 712 216)
 	(pt 752 216)
+)
+(connector
+	(text "Cout" (rect 720 216 743 228)(font "Arial" ))
+	(pt 712 232)
+	(pt 752 232)
 )
