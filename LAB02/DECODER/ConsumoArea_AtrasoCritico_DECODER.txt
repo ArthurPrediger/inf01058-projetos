@@ -1,3 +1,5 @@
 DECODER 4:16:
 
 Consumo de área da FPGA: 16 elementos lógicos e 20 pinos no total.
+
+Atraso crítico: 8.924

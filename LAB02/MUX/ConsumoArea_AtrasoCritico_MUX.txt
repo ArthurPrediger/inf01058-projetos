@@ -1,3 +1,5 @@
 MUX 2:1 de 8 bits:
 
 Consumo de área da FPGA: 8 elementos lógicos e 25 pinos no total.
+
+Atraso crítico: 8.411
