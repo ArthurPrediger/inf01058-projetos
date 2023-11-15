@@ -1,0 +1,5 @@
+ULA de 4 bits:
+
+Consumo de área da FPGA: 11 elementos lógicos e 16 pinos no total.
+
+Atraso crítico: 9.172
