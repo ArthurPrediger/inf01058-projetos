@@ -1,0 +1,5 @@
+Segmento A do BCD:
+
+Consumo de área da FPGA: 1 elemento lógico e 5 pinos no total.
+
+Atraso crítico: 7.524

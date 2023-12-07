@@ -1,0 +1,5 @@
+ULA com decoder BCD:
+
+Consumo de área da FPGA: 18 elemento lógico e 19 pinos no total.
+
+Atraso crítico: 10.468
