@@ -1,0 +1,5 @@
+Divisor de frequência:
+
+Consumo de área da FPGA: 47 elementos lógicos e 3 pinos no total.
+
+Atraso crítico: 4.015
