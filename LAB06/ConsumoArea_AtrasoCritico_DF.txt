@@ -1,0 +1,5 @@
+Contador Up/Down:
+
+Consumo de área da FPGA: 94 elementos lógicos e 26 pinos no total.
+
+Atraso crítico: 4.015
