@@ -23,7 +23,7 @@ applicable agreement for further details.
 	(input)
 	(rect 280 144 448 160)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "clock" (rect 5 0 31 12)(font "Arial" ))
+	(text "clock" (rect 5 0 30 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -39,7 +39,7 @@ applicable agreement for further details.
 	(input)
 	(rect 280 168 448 184)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "goto_t0" (rect 5 0 42 12)(font "Arial" ))
+	(text "goto_t0" (rect 5 0 41 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -55,7 +55,7 @@ applicable agreement for further details.
 	(input)
 	(rect 280 192 448 208)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "instr_hlt" (rect 5 0 44 12)(font "Arial" ))
+	(text "instr_hlt" (rect 5 0 43 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -232,6 +232,31 @@ applicable agreement for further details.
 		(rectangle (rect 16 16 120 80))
 	)
 )
+(symbol
+	(rect 664 232 712 264)
+	(text "NOT" (rect 1 0 21 10)(font "Arial" (font_size 6)))
+	(text "inst1" (rect 3 21 26 33)(font "Arial" ))
+	(port
+		(pt 0 16)
+		(input)
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(line (pt 0 16)(pt 13 16))
+	)
+	(port
+		(pt 48 16)
+		(output)
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(line (pt 39 16)(pt 48 16))
+	)
+	(drawing
+		(line (pt 13 25)(pt 13 7))
+		(line (pt 13 7)(pt 31 16))
+		(line (pt 13 25)(pt 31 16))
+		(circle (rect 31 12 39 20))
+	)
+)
 (connector
 	(text "clock" (rect 434 256 459 268)(font "Arial" ))
 	(pt 424 272)
@@ -256,10 +281,6 @@ applicable agreement for further details.
 	(pt 672 232)
 )
 (connector
-	(pt 656 248)
-	(pt 712 248)
-)
-(connector
 	(pt 848 232)
 	(pt 872 232)
 	(bus)
@@ -274,4 +295,8 @@ applicable agreement for further details.
 	(text "instr_hlt" (rect 546 224 584 236)(font "Arial" ))
 	(pt 592 240)
 	(pt 552 240)
+)
+(connector
+	(pt 656 248)
+	(pt 664 248)
 )
