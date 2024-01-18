@@ -1272,6 +1272,85 @@ applicable agreement for further details.
 		(arc (pt 25 35)(pt 49 24)(rect -6 -27 57 36))
 	)
 )
+(symbol
+	(rect 128 432 176 464)
+	(text "NOT" (rect 1 0 21 10)(font "Arial" (font_size 6)))
+	(text "inst69" (rect 3 21 32 33)(font "Arial" ))
+	(port
+		(pt 0 16)
+		(input)
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(line (pt 0 16)(pt 13 16))
+	)
+	(port
+		(pt 48 16)
+		(output)
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(line (pt 39 16)(pt 48 16))
+	)
+	(drawing
+		(line (pt 13 25)(pt 13 7))
+		(line (pt 13 7)(pt 31 16))
+		(line (pt 13 25)(pt 31 16))
+		(circle (rect 31 12 39 20))
+	)
+)
+(symbol
+	(rect -256 224 -104 320)
+	(text "FrequencyDivider" (rect 5 0 105 14)(font "Arial" (font_size 8)))
+	(text "inst39" (rect 8 80 37 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "clock_in" (rect 0 0 46 14)(font "Arial" (font_size 8)))
+		(text "clock_in" (rect 21 27 67 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "reset" (rect 0 0 29 14)(font "Arial" (font_size 8)))
+		(text "reset" (rect 21 43 50 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 152 32)
+		(output)
+		(text "clock_out" (rect 0 0 54 14)(font "Arial" (font_size 8)))
+		(text "clock_out" (rect 77 27 131 41)(font "Arial" (font_size 8)))
+		(line (pt 152 32)(pt 136 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 136 80))
+	)
+)
+(symbol
+	(rect -304 256 -256 288)
+	(text "NOT" (rect 1 0 21 10)(font "Arial" (font_size 6)))
+	(text "inst40" (rect 3 21 32 33)(font "Arial" ))
+	(port
+		(pt 0 16)
+		(input)
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(line (pt 0 16)(pt 13 16))
+	)
+	(port
+		(pt 48 16)
+		(output)
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(line (pt 39 16)(pt 48 16))
+	)
+	(drawing
+		(line (pt 13 25)(pt 13 7))
+		(line (pt 13 7)(pt 31 16))
+		(line (pt 13 25)(pt 31 16))
+		(circle (rect 31 12 39 20))
+	)
+)
 (connector
 	(text "t[7]" (rect 554 248 570 260)(font "Arial" ))
 	(pt 544 264)
@@ -1300,11 +1379,6 @@ applicable agreement for further details.
 (connector
 	(pt 520 256)
 	(pt 520 272)
-)
-(connector
-	(text "clock" (rect 138 240 163 252)(font "Arial" ))
-	(pt 128 256)
-	(pt 176 256)
 )
 (connector
 	(text "reset" (rect 138 272 162 284)(font "Arial" ))
@@ -1371,14 +1445,9 @@ applicable agreement for further details.
 	(pt 416 392)
 )
 (connector
-	(text "reset" (rect 138 432 162 444)(font "Arial" ))
+	(text "reset" (rect 90 432 114 444)(font "Arial" ))
+	(pt 80 448)
 	(pt 128 448)
-	(pt 176 448)
-)
-(connector
-	(text "clock" (rect 138 416 163 428)(font "Arial" ))
-	(pt 128 432)
-	(pt 176 432)
 )
 (connector
 	(text "state[1..0]" (rect 322 400 372 412)(font "Arial" ))
@@ -1797,4 +1866,29 @@ applicable agreement for further details.
 	(text "<<__$DEF_ALIAS20937>>" (rect 658 240 787 252)(font "Arial" )(invisible))
 	(pt 648 256)
 	(pt 728 256)
+)
+(connector
+	(text "clock" (rect -310 240 -285 252)(font "Arial" ))
+	(pt -256 256)
+	(pt -312 256)
+)
+(connector
+	(text "reset" (rect -350 256 -326 268)(font "Arial" ))
+	(pt -352 272)
+	(pt -304 272)
+)
+(connector
+	(text "clock_d" (rect -102 240 -65 252)(font "Arial" ))
+	(pt -104 256)
+	(pt -56 256)
+)
+(connector
+	(text "clock_d" (rect 138 240 175 252)(font "Arial" ))
+	(pt 128 256)
+	(pt 176 256)
+)
+(connector
+	(text "clock_d" (rect 138 416 175 428)(font "Arial" ))
+	(pt 128 432)
+	(pt 176 432)
 )

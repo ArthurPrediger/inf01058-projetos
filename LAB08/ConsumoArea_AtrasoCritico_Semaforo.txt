@@ -1,0 +1,5 @@
+Semaforo:
+
+Consumo de área da FPGA: 65 elementos lógicos e 5 pinos no total.
+
+Atraso crítico: 6.233
