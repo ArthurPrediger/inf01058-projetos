@@ -50,6 +50,12 @@ set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (VHDL)"
 set_global_assignment -name EDA_OUTPUT_DATA_FORMAT VHDL -section_id eda_simulation
 set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
 set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name BDF_FILE Registers/MUX_2x1_1bit.bdf
+set_global_assignment -name BDF_FILE ControlUnit/Timer.bdf
+set_global_assignment -name BDF_FILE ControlUnit/Encoder_8x3.bdf
+set_global_assignment -name BDF_FILE ControlUnit/Decoder_3x8.bdf
+set_global_assignment -name BDF_FILE ControlUnit/Counter_3bits.bdf
+set_global_assignment -name BDF_FILE ControlUnit/ControlUnit.bdf
 set_global_assignment -name BDF_FILE ULA/OR.bdf
 set_global_assignment -name BDF_FILE ULA/NOT.bdf
 set_global_assignment -name BDF_FILE ULA/AND.bdf
@@ -60,3 +66,5 @@ set_global_assignment -name BDF_FILE Decoder/Decoder_4x16.bdf
 set_global_assignment -name BDF_FILE ULA/ULA.bdf
 set_global_assignment -name BDF_FILE ULA/MUX_8x3_1b.bdf
 set_global_assignment -name BDF_FILE ULA/MUX_8x3_8b.bdf
+set_global_assignment -name BDF_FILE Neander.bdf
+set_global_assignment -name BDF_FILE Registers/Accumulator.bdf
