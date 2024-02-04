@@ -38,7 +38,7 @@
 
 set_global_assignment -name FAMILY "Cyclone III"
 set_global_assignment -name DEVICE EP3C16F484C6
-set_global_assignment -name TOP_LEVEL_ENTITY Neander
+set_global_assignment -name TOP_LEVEL_ENTITY NZFlagsRegister
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 13.1
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "11:27:10  JANUARY 07, 2024"
 set_global_assignment -name LAST_QUARTUS_VERSION 13.1
@@ -50,10 +50,13 @@ set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (VHDL)"
 set_global_assignment -name EDA_OUTPUT_DATA_FORMAT VHDL -section_id eda_simulation
 set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
 set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
-set_global_assignment -name BDF_FILE Registers/MUX_2x1_1bit.bdf
+set_global_assignment -name BDF_FILE Registers/NZFlagsRegister.bdf
+set_global_assignment -name BDF_FILE Multiplexers/MUX_8x3_8b.bdf
+set_global_assignment -name BDF_FILE Multiplexers/MUX_8x3_1b.bdf
+set_global_assignment -name BDF_FILE Multiplexers/MUX_2x1_1bit.bdf
+set_global_assignment -name BDF_FILE Decoder/Decoder_3x8.bdf
 set_global_assignment -name BDF_FILE ControlUnit/Timer.bdf
 set_global_assignment -name BDF_FILE ControlUnit/Encoder_8x3.bdf
-set_global_assignment -name BDF_FILE ControlUnit/Decoder_3x8.bdf
 set_global_assignment -name BDF_FILE ControlUnit/Counter_3bits.bdf
 set_global_assignment -name BDF_FILE ControlUnit/ControlUnit.bdf
 set_global_assignment -name BDF_FILE ULA/OR.bdf
@@ -64,7 +67,13 @@ set_global_assignment -name BDF_FILE ULA/HalfAdder.bdf
 set_global_assignment -name BDF_FILE ULA/FullAdder.bdf
 set_global_assignment -name BDF_FILE Decoder/Decoder_4x16.bdf
 set_global_assignment -name BDF_FILE ULA/ULA.bdf
-set_global_assignment -name BDF_FILE ULA/MUX_8x3_1b.bdf
-set_global_assignment -name BDF_FILE ULA/MUX_8x3_8b.bdf
 set_global_assignment -name BDF_FILE Neander.bdf
 set_global_assignment -name BDF_FILE Registers/Accumulator.bdf
+set_global_assignment -name BDF_FILE Registers/MemoryAddressRegister.bdf
+set_global_assignment -name BDF_FILE Multiplexers/MUX_2x1_8b.bdf
+set_global_assignment -name BDF_FILE Registers/InstructionRegister.bdf
+set_global_assignment -name BDF_FILE Registers/MemoryDataResgister.bdf
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
