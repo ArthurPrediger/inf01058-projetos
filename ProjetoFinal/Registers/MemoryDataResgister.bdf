@@ -71,7 +71,7 @@ applicable agreement for further details.
 	(input)
 	(rect 408 104 576 120)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "cargaRDM" (rect 5 0 57 12)(font "Arial" ))
+	(text "cargaRDM" (rect 5 0 56 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -162,31 +162,6 @@ applicable agreement for further details.
 	)
 	(drawing
 		(line (pt 8 8)(pt 24 8))
-	)
-)
-(symbol
-	(rect 432 216 480 248)
-	(text "NOT" (rect 1 0 21 10)(font "Arial" (font_size 6)))
-	(text "inst3" (rect 3 21 26 33)(font "Arial" ))
-	(port
-		(pt 0 16)
-		(input)
-		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
-		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
-		(line (pt 0 16)(pt 13 16))
-	)
-	(port
-		(pt 48 16)
-		(output)
-		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
-		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
-		(line (pt 39 16)(pt 48 16))
-	)
-	(drawing
-		(line (pt 13 25)(pt 13 7))
-		(line (pt 13 7)(pt 31 16))
-		(line (pt 13 25)(pt 31 16))
-		(circle (rect 31 12 39 20))
 	)
 )
 (symbol
@@ -933,17 +908,7 @@ applicable agreement for further details.
 	)
 )
 (connector
-	(text "reset_" (rect 490 216 520 228)(font "Arial" ))
-	(pt 480 232)
-	(pt 528 232)
-)
-(connector
-	(text "reset" (rect 386 216 410 228)(font "Arial" ))
-	(pt 376 232)
-	(pt 432 232)
-)
-(connector
-	(text "reset_" (rect 672 417 684 447)(font "Arial" )(vertical))
+	(text "reset" (rect 672 417 684 441)(font "Arial" )(vertical))
 	(pt 688 408)
 	(pt 688 448)
 )
@@ -988,7 +953,7 @@ applicable agreement for further details.
 	(pt 480 352)
 )
 (connector
-	(text "reset_" (rect 672 585 684 615)(font "Arial" )(vertical))
+	(text "reset" (rect 672 585 684 609)(font "Arial" )(vertical))
 	(pt 688 576)
 	(pt 688 616)
 )
@@ -1029,7 +994,7 @@ applicable agreement for further details.
 	(pt 480 536)
 )
 (connector
-	(text "reset_" (rect 672 753 684 783)(font "Arial" )(vertical))
+	(text "reset" (rect 672 753 684 777)(font "Arial" )(vertical))
 	(pt 688 744)
 	(pt 688 784)
 )
@@ -1060,7 +1025,7 @@ applicable agreement for further details.
 	(pt 480 688)
 )
 (connector
-	(text "reset_" (rect 672 921 684 951)(font "Arial" )(vertical))
+	(text "reset" (rect 672 921 684 945)(font "Arial" )(vertical))
 	(pt 688 912)
 	(pt 688 952)
 )
@@ -1111,7 +1076,7 @@ applicable agreement for further details.
 	(pt 480 872)
 )
 (connector
-	(text "reset_" (rect 672 1089 684 1119)(font "Arial" )(vertical))
+	(text "reset" (rect 672 1089 684 1113)(font "Arial" )(vertical))
 	(pt 688 1080)
 	(pt 688 1120)
 )
@@ -1142,7 +1107,7 @@ applicable agreement for further details.
 	(pt 480 1024)
 )
 (connector
-	(text "reset_" (rect 672 1257 684 1287)(font "Arial" )(vertical))
+	(text "reset" (rect 672 1257 684 1281)(font "Arial" )(vertical))
 	(pt 688 1248)
 	(pt 688 1288)
 )
@@ -1173,7 +1138,7 @@ applicable agreement for further details.
 	(pt 480 1192)
 )
 (connector
-	(text "reset_" (rect 672 1425 684 1455)(font "Arial" )(vertical))
+	(text "reset" (rect 672 1425 684 1449)(font "Arial" )(vertical))
 	(pt 688 1416)
 	(pt 688 1456)
 )
@@ -1204,7 +1169,7 @@ applicable agreement for further details.
 	(pt 480 1360)
 )
 (connector
-	(text "reset_" (rect 672 1593 684 1623)(font "Arial" )(vertical))
+	(text "reset" (rect 672 1593 684 1617)(font "Arial" )(vertical))
 	(pt 688 1584)
 	(pt 688 1624)
 )

@@ -165,31 +165,6 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 112 224 160 256)
-	(text "NOT" (rect 1 0 21 10)(font "Arial" (font_size 6)))
-	(text "inst3" (rect 3 21 26 33)(font "Arial" ))
-	(port
-		(pt 0 16)
-		(input)
-		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
-		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
-		(line (pt 0 16)(pt 13 16))
-	)
-	(port
-		(pt 48 16)
-		(output)
-		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
-		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
-		(line (pt 39 16)(pt 48 16))
-	)
-	(drawing
-		(line (pt 13 25)(pt 13 7))
-		(line (pt 13 7)(pt 31 16))
-		(line (pt 13 25)(pt 31 16))
-		(circle (rect 31 12 39 20))
-	)
-)
-(symbol
 	(rect 336 504 400 584)
 	(text "DFF" (rect 1 0 19 10)(font "Arial" (font_size 6)))
 	(text "inst1" (rect 3 68 26 80)(font "Arial" ))
@@ -933,17 +908,7 @@ applicable agreement for further details.
 	)
 )
 (connector
-	(text "reset_" (rect 170 224 200 236)(font "Arial" ))
-	(pt 160 240)
-	(pt 208 240)
-)
-(connector
-	(text "reset" (rect 66 224 90 236)(font "Arial" ))
-	(pt 56 240)
-	(pt 112 240)
-)
-(connector
-	(text "reset_" (rect 352 425 364 455)(font "Arial" )(vertical))
+	(text "reset" (rect 352 425 364 449)(font "Arial" )(vertical))
 	(pt 368 416)
 	(pt 368 456)
 )
@@ -988,7 +953,7 @@ applicable agreement for further details.
 	(pt 160 360)
 )
 (connector
-	(text "reset_" (rect 352 593 364 623)(font "Arial" )(vertical))
+	(text "reset" (rect 352 593 364 617)(font "Arial" )(vertical))
 	(pt 368 584)
 	(pt 368 624)
 )
@@ -1033,7 +998,7 @@ applicable agreement for further details.
 	(pt 160 544)
 )
 (connector
-	(text "reset_" (rect 352 761 364 791)(font "Arial" )(vertical))
+	(text "reset" (rect 352 761 364 785)(font "Arial" )(vertical))
 	(pt 368 752)
 	(pt 368 792)
 )
@@ -1068,7 +1033,7 @@ applicable agreement for further details.
 	(pt 160 696)
 )
 (connector
-	(text "reset_" (rect 352 929 364 959)(font "Arial" )(vertical))
+	(text "reset" (rect 352 929 364 953)(font "Arial" )(vertical))
 	(pt 368 920)
 	(pt 368 960)
 )
@@ -1123,7 +1088,7 @@ applicable agreement for further details.
 	(pt 160 880)
 )
 (connector
-	(text "reset_" (rect 352 1097 364 1127)(font "Arial" )(vertical))
+	(text "reset" (rect 352 1097 364 1121)(font "Arial" )(vertical))
 	(pt 368 1088)
 	(pt 368 1128)
 )
@@ -1158,7 +1123,7 @@ applicable agreement for further details.
 	(pt 160 1032)
 )
 (connector
-	(text "reset_" (rect 352 1265 364 1295)(font "Arial" )(vertical))
+	(text "reset" (rect 352 1265 364 1289)(font "Arial" )(vertical))
 	(pt 368 1256)
 	(pt 368 1296)
 )
@@ -1193,7 +1158,7 @@ applicable agreement for further details.
 	(pt 160 1200)
 )
 (connector
-	(text "reset_" (rect 352 1433 364 1463)(font "Arial" )(vertical))
+	(text "reset" (rect 352 1433 364 1457)(font "Arial" )(vertical))
 	(pt 368 1424)
 	(pt 368 1464)
 )
@@ -1228,7 +1193,7 @@ applicable agreement for further details.
 	(pt 160 1368)
 )
 (connector
-	(text "reset_" (rect 352 1601 364 1631)(font "Arial" )(vertical))
+	(text "reset" (rect 352 1601 364 1625)(font "Arial" )(vertical))
 	(pt 368 1592)
 	(pt 368 1632)
 )
