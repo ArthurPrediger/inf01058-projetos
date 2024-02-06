@@ -39,7 +39,7 @@ applicable agreement for further details.
 	(input)
 	(rect 200 104 368 120)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "Y[7..0]" (rect 5 0 40 12)(font "Arial" ))
+	(text "Y[7..0]" (rect 5 0 39 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -55,7 +55,7 @@ applicable agreement for further details.
 	(input)
 	(rect 200 80 368 96)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "X[7..0]" (rect 5 0 37 12)(font "Arial" ))
+	(text "X[7..0]" (rect 5 0 36 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -543,9 +543,28 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "out[0]" (rect 642 520 670 532)(font "Arial" ))
-	(pt 632 536)
-	(pt 680 536)
+	(text "out_and[7..0]" (rect 538 360 602 372)(font "Arial" ))
+	(pt 528 376)
+	(pt 600 376)
+	(bus)
+)
+(connector
+	(text "zero_8b[7..0]" (rect 538 392 601 404)(font "Arial" ))
+	(pt 528 408)
+	(pt 600 408)
+	(bus)
+)
+(connector
+	(text "zero_8b[7..0]" (rect 538 408 601 420)(font "Arial" ))
+	(pt 528 424)
+	(pt 600 424)
+	(bus)
+)
+(connector
+	(text "zero_8b[7..0]" (rect 538 424 601 436)(font "Arial" ))
+	(pt 528 440)
+	(pt 600 440)
+	(bus)
 )
 (connector
 	(text "out[1]" (rect 642 536 670 548)(font "Arial" ))
@@ -583,31 +602,12 @@ applicable agreement for further details.
 	(pt 680 648)
 )
 (connector
-	(text "flag_Z" (rect 754 576 785 588)(font "Arial" ))
+	(text "out[0]" (rect 642 520 670 532)(font "Arial" ))
+	(pt 632 536)
+	(pt 680 536)
+)
+(connector
+	(text "flag_Z" (rect 762 576 793 588)(font "Arial" ))
 	(pt 744 592)
-	(pt 792 592)
-)
-(connector
-	(text "out_and[7..0]" (rect 538 360 602 372)(font "Arial" ))
-	(pt 528 376)
-	(pt 600 376)
-	(bus)
-)
-(connector
-	(text "zero_8b[7..0]" (rect 538 392 601 404)(font "Arial" ))
-	(pt 528 408)
-	(pt 600 408)
-	(bus)
-)
-(connector
-	(text "zero_8b[7..0]" (rect 538 408 601 420)(font "Arial" ))
-	(pt 528 424)
-	(pt 600 424)
-	(bus)
-)
-(connector
-	(text "zero_8b[7..0]" (rect 538 424 601 436)(font "Arial" ))
-	(pt 528 440)
-	(pt 600 440)
-	(bus)
+	(pt 800 592)
 )
