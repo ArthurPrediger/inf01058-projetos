@@ -120,7 +120,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 280 176 376 272)
+	(rect 280 184 376 280)
 	(text "FullAdder" (rect 5 0 59 14)(font "Arial" (font_size 8)))
 	(text "inoutt2" (rect 8 80 41 92)(font "Arial" ))
 	(port

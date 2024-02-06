@@ -21,7 +21,7 @@ applicable agreement for further details.
 (header "symbol" (version "1.2"))
 (symbol
 	(rect 16 16 152 112)
-	(text "NOT" (rect 5 0 29 14)(font "Arial" (font_size 8)))
+	(text "NOT_op" (rect 5 0 51 14)(font "Arial" (font_size 8)))
 	(text "inst" (rect 8 80 25 92)(font "Arial" ))
 	(port
 		(pt 0 32)
