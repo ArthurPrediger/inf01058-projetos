@@ -208,7 +208,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1224 -232 1400 -216)
+	(rect 1208 -96 1384 -80)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "PC_out[7..0]" (rect 90 0 152 12)(font "Arial" ))
 	(pt 0 8)
@@ -224,7 +224,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1224 -192 1400 -176)
+	(rect 1208 -56 1384 -40)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "AC_out[7..0]" (rect 90 0 152 12)(font "Arial" ))
 	(pt 0 8)
@@ -1564,15 +1564,15 @@ applicable agreement for further details.
 	(pt 912 1512)
 )
 (connector
-	(text "out_PC[7..0]" (rect 1162 -240 1224 -228)(font "Arial" ))
-	(pt 1152 -224)
-	(pt 1224 -224)
+	(text "out_PC[7..0]" (rect 1146 -104 1208 -92)(font "Arial" ))
+	(pt 1136 -88)
+	(pt 1208 -88)
 	(bus)
 )
 (connector
-	(text "out_AC[7..0]" (rect 1162 -200 1224 -188)(font "Arial" ))
-	(pt 1152 -184)
-	(pt 1224 -184)
+	(text "out_AC[7..0]" (rect 1146 -64 1208 -52)(font "Arial" ))
+	(pt 1136 -48)
+	(pt 1208 -48)
 	(bus)
 )
 (connector

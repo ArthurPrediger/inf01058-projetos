@@ -21,7 +21,7 @@ applicable agreement for further details.
 (header "graphic" (version "1.4"))
 (pin
 	(input)
-	(rect 280 104 448 120)
+	(rect 264 48 432 64)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
 	(text "clock" (rect 5 0 30 12)(font "Arial" ))
 	(pt 168 8)
@@ -37,7 +37,7 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 280 128 448 144)
+	(rect 264 72 432 88)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
 	(text "goto_t0" (rect 5 0 41 12)(font "Arial" ))
 	(pt 168 8)
@@ -53,7 +53,7 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 280 152 448 168)
+	(rect 264 96 432 112)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
 	(text "instr_hlt" (rect 5 0 43 12)(font "Arial" ))
 	(pt 168 8)
@@ -69,7 +69,7 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 280 176 448 192)
+	(rect 264 120 432 136)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
 	(text "reset" (rect 5 0 29 12)(font "Arial" ))
 	(pt 168 8)
@@ -283,7 +283,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 208 232 304 328)
+	(rect 568 104 664 200)
 	(text "MUX_2x1_1bit" (rect 5 0 86 14)(font "Arial" (font_size 8)))
 	(text "inst6" (rect 8 80 31 92)(font "Arial" ))
 	(port
@@ -319,7 +319,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 160 264 192 296)
+	(rect 520 136 552 168)
 	(text "GND" (rect 6 8 16 29)(font "Arial" (font_size 6))(vertical))
 	(text "inst7" (rect -1 3 11 26)(font "Arial" )(vertical)(invisible))
 	(port
@@ -348,11 +348,6 @@ applicable agreement for further details.
 (connector
 	(pt 392 224)
 	(pt 392 216)
-)
-(connector
-	(text "clock" (rect 682 216 707 228)(font "Arial" ))
-	(pt 712 232)
-	(pt 672 232)
 )
 (connector
 	(pt 848 232)
@@ -389,21 +384,33 @@ applicable agreement for further details.
 	(pt 600 256)
 )
 (connector
-	(text "<<__$DEF_ALIAS166>>" (rect 330 248 448 260)(font "Arial" )(invisible))
-	(pt 304 264)
+	(text "clock" (rect 514 120 539 132)(font "Arial" ))
+	(pt 504 136)
+	(pt 568 136)
+)
+(connector
+	(pt 552 152)
+	(pt 568 152)
+)
+(connector
+	(pt 712 232)
+	(pt 672 232)
+)
+(connector
+	(text "clock" (rect 330 248 355 260)(font "Arial" ))
 	(pt 360 264)
+	(pt 320 264)
 )
 (connector
-	(text "clock" (rect 154 248 179 260)(font "Arial" ))
-	(pt 144 264)
-	(pt 208 264)
+	(pt 664 136)
+	(pt 672 136)
 )
 (connector
-	(pt 192 280)
-	(pt 208 280)
+	(pt 672 136)
+	(pt 672 232)
 )
 (connector
-	(text "instr_hlt" (rect 90 280 128 292)(font "Arial" ))
-	(pt 208 296)
-	(pt 80 296)
+	(text "instr_hlt" (rect 466 152 504 164)(font "Arial" ))
+	(pt 464 168)
+	(pt 568 168)
 )

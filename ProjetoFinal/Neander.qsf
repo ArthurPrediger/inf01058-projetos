@@ -50,42 +50,6 @@ set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
 set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
 set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
 set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
-set_global_assignment -name BDF_FILE ULA/OR_op.bdf
-set_global_assignment -name BDF_FILE ULA/NOT_op.bdf
-set_global_assignment -name BDF_FILE ULA/AND_op.bdf
-set_global_assignment -name BDF_FILE BCD_Decoder/GSegment.bdf
-set_global_assignment -name BDF_FILE BCD_Decoder/FSegment.bdf
-set_global_assignment -name BDF_FILE BCD_Decoder/ESegment.bdf
-set_global_assignment -name BDF_FILE BCD_Decoder/DSegment.bdf
-set_global_assignment -name BDF_FILE BCD_Decoder/CSegment.bdf
-set_global_assignment -name BDF_FILE BCD_Decoder/BSegment.bdf
-set_global_assignment -name BDF_FILE BCD_Decoder/BCD_Decoder.bdf
-set_global_assignment -name BDF_FILE BCD_Decoder/ASegment.bdf
-set_global_assignment -name BDF_FILE Multiplexers/MUX_4x2_1bit.bdf
-set_global_assignment -name BDF_FILE Registers/NZFlagsRegister.bdf
-set_global_assignment -name BDF_FILE Multiplexers/MUX_8x3_8b.bdf
-set_global_assignment -name BDF_FILE Multiplexers/MUX_8x3_1b.bdf
-set_global_assignment -name BDF_FILE Multiplexers/MUX_2x1_1bit.bdf
-set_global_assignment -name BDF_FILE Decoder/Decoder_3x8.bdf
-set_global_assignment -name BDF_FILE ControlUnit/Timer.bdf
-set_global_assignment -name BDF_FILE ControlUnit/Encoder_8x3.bdf
-set_global_assignment -name BDF_FILE ControlUnit/Counter_3bits.bdf
-set_global_assignment -name BDF_FILE ControlUnit/ControlUnit.bdf
-set_global_assignment -name BDF_FILE ULA/RCA.bdf
-set_global_assignment -name BDF_FILE ULA/HalfAdder.bdf
-set_global_assignment -name BDF_FILE ULA/FullAdder.bdf
-set_global_assignment -name BDF_FILE Decoder/Decoder_4x16.bdf
-set_global_assignment -name BDF_FILE ULA/ULA.bdf
-set_global_assignment -name BDF_FILE Neander.bdf
-set_global_assignment -name BDF_FILE Registers/Accumulator.bdf
-set_global_assignment -name BDF_FILE Registers/MemoryAddressRegister.bdf
-set_global_assignment -name BDF_FILE Multiplexers/MUX_2x1_8b.bdf
-set_global_assignment -name BDF_FILE Registers/InstructionRegister.bdf
-set_global_assignment -name BDF_FILE Registers/MemoryDataResgister.bdf
-set_global_assignment -name BDF_FILE Registers/ProgramCounter.bdf
-set_global_assignment -name BDF_FILE Encoders/Encoder_4x2.bdf
-set_global_assignment -name BDF_FILE FrequencyDivider.bdf
-set_global_assignment -name VHDL_FILE ROM_Neander.vhd
 set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
 set_location_assignment PIN_H2 -to reset
 set_location_assignment PIN_G3 -to step_up
@@ -122,10 +86,46 @@ set_location_assignment PIN_C19 -to PC1[4]
 set_location_assignment PIN_B19 -to PC1[3]
 set_location_assignment PIN_A19 -to PC1[2]
 set_location_assignment PIN_F15 -to PC1[1]
-set_global_assignment -name VECTOR_WAVEFORM_FILE ../TesteVWF.vwf
-set_global_assignment -name EDA_NETLIST_WRITER_OUTPUT_DIR "C:/Users/aluno/Documents/inf01058-projetos/ProjetoFinal/simulation/qsim/" -section_id eda_simulation
+set_global_assignment -name EDA_NETLIST_WRITER_OUTPUT_DIR "C:/Users/ArthurPrediger/Documents/inf01058-projetos/ProjetoFinal/simulation/qsim/" -section_id eda_simulation
 set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name VECTOR_WAVEFORM_FILE Neander_SimulacaoVWF.vwf
+set_global_assignment -name BDF_FILE ULA/OR_op.bdf
+set_global_assignment -name BDF_FILE ULA/NOT_op.bdf
+set_global_assignment -name BDF_FILE ULA/AND_op.bdf
+set_global_assignment -name BDF_FILE BCD_Decoder/GSegment.bdf
+set_global_assignment -name BDF_FILE BCD_Decoder/FSegment.bdf
+set_global_assignment -name BDF_FILE BCD_Decoder/ESegment.bdf
+set_global_assignment -name BDF_FILE BCD_Decoder/DSegment.bdf
+set_global_assignment -name BDF_FILE BCD_Decoder/CSegment.bdf
+set_global_assignment -name BDF_FILE BCD_Decoder/BSegment.bdf
+set_global_assignment -name BDF_FILE BCD_Decoder/BCD_Decoder.bdf
+set_global_assignment -name BDF_FILE BCD_Decoder/ASegment.bdf
+set_global_assignment -name BDF_FILE Multiplexers/MUX_4x2_1bit.bdf
+set_global_assignment -name BDF_FILE Registers/NZFlagsRegister.bdf
+set_global_assignment -name BDF_FILE Multiplexers/MUX_8x3_8b.bdf
+set_global_assignment -name BDF_FILE Multiplexers/MUX_8x3_1b.bdf
+set_global_assignment -name BDF_FILE Multiplexers/MUX_2x1_1bit.bdf
+set_global_assignment -name BDF_FILE Decoder/Decoder_3x8.bdf
+set_global_assignment -name BDF_FILE ControlUnit/Timer.bdf
+set_global_assignment -name BDF_FILE ControlUnit/Encoder_8x3.bdf
+set_global_assignment -name BDF_FILE ControlUnit/Counter_3bits.bdf
+set_global_assignment -name BDF_FILE ControlUnit/ControlUnit.bdf
+set_global_assignment -name BDF_FILE ULA/RCA.bdf
+set_global_assignment -name BDF_FILE ULA/HalfAdder.bdf
+set_global_assignment -name BDF_FILE ULA/FullAdder.bdf
+set_global_assignment -name BDF_FILE Decoder/Decoder_4x16.bdf
+set_global_assignment -name BDF_FILE ULA/ULA.bdf
+set_global_assignment -name BDF_FILE Neander.bdf
+set_global_assignment -name BDF_FILE Registers/Accumulator.bdf
+set_global_assignment -name BDF_FILE Registers/MemoryAddressRegister.bdf
+set_global_assignment -name BDF_FILE Multiplexers/MUX_2x1_8b.bdf
+set_global_assignment -name BDF_FILE Registers/InstructionRegister.bdf
+set_global_assignment -name BDF_FILE Registers/MemoryDataResgister.bdf
+set_global_assignment -name BDF_FILE Registers/ProgramCounter.bdf
+set_global_assignment -name BDF_FILE Encoders/Encoder_4x2.bdf
+set_global_assignment -name BDF_FILE FrequencyDivider.bdf
+set_global_assignment -name VHDL_FILE ROM_Neander.vhd
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
